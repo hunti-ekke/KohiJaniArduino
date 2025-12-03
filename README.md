@@ -25,6 +25,9 @@ Az öt LED a teljes 180°-os pásztázási tartomány öt egyenlő szegmensét j
 ### Beállítható maximális mérési távolság
 Egy potméterrel szabályozható a maximális érzékelési távolság, így a rendszer **rugalmasan alkalmazkodik a környezethez**.
 
+### Közelség visszajelzés
+Ha valami 10 cm-en belül helyezkedik el, akkor a buzzer konstans sípolásba kezd addig, amíg el nem távolodik az objektum.
+
 ---
 
 ## Szükséges elemek listája
@@ -33,7 +36,8 @@ Egy potméterrel szabályozható a maximális érzékelési távolság, így a r
 - Szervo motor (SG-90)  
 - LCD kijelző (16x2)  
 - 5 db LED  
-- 6 db ellenállás  
+- 6 db ellenállás
+- Buzzer
 - Potenciométer  
 - Jumper kábelek  
 - Breadboard
